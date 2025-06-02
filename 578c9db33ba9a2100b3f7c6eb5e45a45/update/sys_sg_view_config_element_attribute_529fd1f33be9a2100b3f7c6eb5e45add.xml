@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_sg_view_config_element_attribute">
+    <sys_sg_view_config_element_attribute action="INSERT_OR_UPDATE">
+        <description/>
+        <name display_value="FieldValue">c2eed5c2b7321010df65f6efce11a9cf</name>
+        <sys_class_name>sys_sg_view_config_element_attribute</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-05-23 08:59:03</sys_created_on>
+        <sys_id>529fd1f33be9a2100b3f7c6eb5e45add</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>c2eed5c2b7321010df65f6efce11a9cf</sys_name>
+        <sys_package display_value="WOG Integrations" source="x_snc_wog_integrat">578c9db33ba9a2100b3f7c6eb5e45a45</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="WOG Integrations">578c9db33ba9a2100b3f7c6eb5e45a45</sys_scope>
+        <sys_update_name>sys_sg_view_config_element_attribute_529fd1f33be9a2100b3f7c6eb5e45add</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-05-23 08:59:03</sys_updated_on>
+        <translated_value/>
+        <value>business_owner</value>
+        <view_config_element display_value="business_owner-FieldValue">129fd1f33be9a2100b3f7c6eb5e45adb</view_config_element>
+    </sys_sg_view_config_element_attribute>
+    <sys_translated_text action="delete_multiple" query="documentkey=529fd1f33be9a2100b3f7c6eb5e45add"/>
+</record_update>

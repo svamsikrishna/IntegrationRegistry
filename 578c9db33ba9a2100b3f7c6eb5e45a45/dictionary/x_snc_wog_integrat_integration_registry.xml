@@ -1,0 +1,143 @@
+<?xml version="1.0" encoding="UTF-8"?><database>
+    <element db_object_id="ef5f1db33be9a2100b3f7c6eb5e45a5a" label="Integration Registry" max_length="40" name="x_snc_wog_integrat_integration_registry" type="collection">
+        <element attributes="edge_encryption_enabled=true" choice="2" label="Agency Name" max_length="40" name="agency_name" type="choice">
+            <choice/>
+        </element>
+        <element attributes="edge_encryption_enabled=true" choice="2" label="Authentication Method" max_length="40" name="authentication_method" type="choice">
+            <choice>
+                <element inactive_on_update="false" label="API Key" sequence="100" value="API Key"/>
+                <element inactive_on_update="false" label="Basic Auth" sequence="200" value="Basic Auth"/>
+                <element inactive_on_update="false" label="Mutual TLS" sequence="300" value="Mutual TLS"/>
+                <element inactive_on_update="false" label="N/A" sequence="400" value="n.a"/>
+                <element inactive_on_update="false" label="OAuth 2.0" sequence="500" value="OAuth 2.0"/>
+                <element inactive_on_update="false" label="Other" sequence="600" value="other"/>
+                <element inactive_on_update="false" label="SAML 2.0" sequence="700" value="SAML 2.0"/>
+                <element inactive_on_update="false" label="Token" sequence="800" value="Token"/>
+            </choice>
+        </element>
+        <element attributes="edge_encryption_enabled=true" label="Business Owner" max_length="40" name="business_owner" type="string"/>
+        <element attributes="edge_encryption_enabled=true" label="Comments / Notes" max_length="4000" name="comments_notes" type="journal"/>
+        <element attributes="edge_encryption_enabled=true" label="Compliance Requirements" max_length="250" name="compliance_requirements" type="string"/>
+        <element attributes="edge_encryption_enabled=true" label="Custom Script / Transform Map" max_length="4000" name="custom_script_transform_map" type="journal"/>
+        <element attributes="edge_encryption_enabled=true" label="Data Format / Payload" max_length="4000" name="data_format_payload" type="journal"/>
+        <element choice="2" label="Data format type" max_length="40" name="data_format_type" type="choice">
+            <choice>
+                <element inactive_on_update="false" label="CSV" sequence="100" value="CSV"/>
+                <element inactive_on_update="false" label="JSON" sequence="200" value="JSON"/>
+                <element inactive_on_update="false" label="XML" sequence="300" value="XML"/>
+            </choice>
+        </element>
+        <element attributes="edge_encryption_enabled=true" label="Deployment Notes" max_length="4000" name="deployment_notes" type="journal"/>
+        <element attributes="edge_encryption_enabled=true" choice="2" label="Direction" max_length="40" name="direction" type="choice">
+            <choice>
+                <element inactive_on_update="false" label="Bi-directional" sequence="100" value="bi-directional"/>
+                <element inactive_on_update="false" label="Inbound" sequence="200" value="inbound"/>
+                <element inactive_on_update="false" label="Outbound" sequence="300" value="outbound"/>
+            </choice>
+        </element>
+        <element attributes="edge_encryption_enabled=true" choice="2" label="Error Handling Strategy" max_length="40" name="error_handling_strategy" type="choice">
+            <choice>
+                <element inactive_on_update="false" label="Logged in syslog" sequence="100" value="Logged in syslog"/>
+                <element inactive_on_update="false" label="Notify Admin" sequence="200" value="notify admin"/>
+                <element inactive_on_update="false" label="Retry Logic" sequence="300" value="retry logic"/>
+            </choice>
+        </element>
+        <element attributes="edge_encryption_enabled=true" choice="2" label="Frequency / Trigger Type" max_length="100" name="frequency_trigger_type" type="string">
+            <choice>
+                <element inactive_on_update="false" label="Event-based" sequence="100" value="Event-based"/>
+                <element inactive_on_update="false" label="Real-time" sequence="200" value="Real-time"/>
+                <element inactive_on_update="false" label="Scheduled Job (Daily @ 2 AM)" sequence="300" value="Scheduled Job (Daily @ 2 AM)"/>
+            </choice>
+        </element>
+        <element attributes="edge_encryption_enabled=true" label="IntegrationHub Spoke Used" max_length="150" name="integrationhub_spoke_used" type="string"/>
+        <element attributes="edge_encryption_enabled=true" label="Integration Name" max_length="100" name="integration_name" type="string"/>
+        <element attributes="edge_encryption_enabled=true" choice="2" label="Integration Type" max_length="40" name="integration_type" type="choice">
+            <choice>
+                <element inactive_on_update="false" label="Email" sequence="100" value="email"/>
+                <element inactive_on_update="false" label="File-based" sequence="200" value="file-based"/>
+                <element inactive_on_update="false" label="IntegrationHub Spoke" sequence="300" value="integrationhub spoke"/>
+                <element inactive_on_update="false" label="JDBC" sequence="400" value="jdbc"/>
+                <element inactive_on_update="false" label="MID Server" sequence="450" value="mid_server"/>
+                <element inactive_on_update="false" label="REST" sequence="500" value="rest"/>
+                <element inactive_on_update="false" label="SOAP" sequence="600" value="soap"/>
+            </choice>
+        </element>
+        <element attributes="edge_encryption_enabled=true" choice="2" label="Interface Facing" max_length="40" name="interface_facing" type="choice">
+            <choice/>
+        </element>
+        <element attributes="edge_encryption_enabled=true" label="Last Reviewed Date" max_length="40" name="last_reviewed_date" type="glide_date_time"/>
+        <element attributes="edge_encryption_enabled=true" choice="2" label="Logging Location" max_length="150" name="logging_location" type="string">
+            <choice>
+                <element inactive_on_update="false" label="Custom Log Table" sequence="100" value="Custom Log Table"/>
+                <element inactive_on_update="false" label="ECC Queue" sequence="200" value="ECC Queue"/>
+                <element inactive_on_update="false" label="Splunk" sequence="300" value="Splunk"/>
+            </choice>
+        </element>
+        <element attributes="edge_encryption_enabled=true" choice="2" label="MID Server Required" max_length="40" name="mid_server_required" type="choice">
+            <choice>
+                <element inactive_on_update="false" label="No" sequence="100" value="No"/>
+                <element inactive_on_update="false" label="Yes" sequence="200" value="Yes"/>
+            </choice>
+        </element>
+        <element attributes="edge_encryption_enabled=true" choice="2" label="Monitoring Mechanism" max_length="40" name="monitoring_mechanism" type="choice">
+            <choice>
+                <element inactive_on_update="false" label="Health Log" sequence="0" value="Health Log"/>
+                <element inactive_on_update="false" label="Event Mgmt" sequence="1" value="Event Mgmt"/>
+                <element inactive_on_update="false" label="Scheduled Script" sequence="2" value="Scheduled Script"/>
+            </choice>
+        </element>
+        <element attributes="edge_encryption_enabled=true" default="javascript:global.getNextObjNumberPadded();" label="Number" max_length="40" name="number" type="string"/>
+        <element attributes="edge_encryption_enabled=true" choice="2" label="Protocol / Channel" max_length="250" name="protocol_channel" type="string">
+            <choice>
+                <element inactive_on_update="false" label="Email" sequence="100" value="Email"/>
+                <element inactive_on_update="false" label="HTTPS" sequence="200" value="HTTPS"/>
+                <element inactive_on_update="false" label="JDBC" sequence="300" value="JDBC"/>
+                <element inactive_on_update="false" label="SFTP" sequence="400" value="SFTP"/>
+            </choice>
+        </element>
+        <element attributes="edge_encryption_enabled=true" choice="2" label="Review Frequency" max_length="40" name="review_frequency" type="choice">
+            <choice>
+                <element inactive_on_update="false" label="Monthly" sequence="100" value="Monthly"/>
+                <element inactive_on_update="false" label="Quarterly" sequence="200" value="Quarterly"/>
+                <element inactive_on_update="false" label="Annually" sequence="300" value="Annually"/>
+            </choice>
+        </element>
+        <element attributes="edge_encryption_enabled=true" choice="2" label="Security / Data Sensitivity" max_length="150" name="security_data_sensitivity" type="string">
+            <choice>
+                <element inactive_on_update="false" label="Internal" sequence="100" value="Internal"/>
+                <element inactive_on_update="false" label="PCI" sequence="200" value="PCI"/>
+                <element inactive_on_update="false" label="PHI" sequence="300" value="PHI"/>
+                <element inactive_on_update="false" label="PII" sequence="400" value="PII"/>
+                <element inactive_on_update="false" label="Public" sequence="500" value="Public"/>
+            </choice>
+        </element>
+        <element attributes="edge_encryption_enabled=true" choice="2" label="Source System" max_length="250" name="source_system" type="string_full_utf8">
+            <choice>
+                <element inactive_on_update="false" label="Active Directory" sequence="100" value="Active Directory"/>
+                <element inactive_on_update="false" label="Azure AD" sequence="200" value="Azure AD"/>
+                <element inactive_on_update="false" label="SAP" sequence="300" value="SAP"/>
+                <element inactive_on_update="false" label="Workday" sequence="400" value="Workday"/>
+            </choice>
+        </element>
+        <element attributes="edge_encryption_enabled=true" choice="2" label="Status" max_length="40" name="status" type="choice">
+            <choice>
+                <element inactive_on_update="false" label="Deprecated" value="Deprecated"/>
+                <element inactive_on_update="false" label="In Progress" value="In Progress"/>
+                <element inactive_on_update="false" label="Live" value="Live"/>
+                <element inactive_on_update="false" label="Planned" value="Planned"/>
+            </choice>
+        </element>
+        <element default="javascript:current.getTableName();" label="Class" max_length="80" name="sys_class_name" type="sys_class_name"/>
+        <element attributes="edge_encryption_enabled=true" label="Target Table/Module" max_length="40" name="target_table_module" type="string"/>
+        <element attributes="edge_encryption_enabled=true" label="Technical Owner" max_length="40" name="technical_owner" type="string"/>
+        <element attributes="edge_encryption_enabled=true" choice="2" label="Testing Completed" max_length="40" name="testing_completed" type="choice">
+            <choice>
+                <element inactive_on_update="false" label="Regression Completed" sequence="100" value="Regression Completed"/>
+                <element inactive_on_update="false" label="UAT completed" sequence="200" value="UAT completed"/>
+            </choice>
+        </element>
+        <index name="index">
+            <element name="sys_class_name"/>
+        </index>
+    </element>
+</database>

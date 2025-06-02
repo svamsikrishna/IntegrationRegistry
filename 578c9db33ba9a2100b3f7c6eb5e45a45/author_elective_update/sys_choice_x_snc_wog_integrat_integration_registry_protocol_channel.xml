@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update>
+    <sys_choice action="INSERT_OR_UPDATE" field="protocol_channel" table="x_snc_wog_integrat_integration_registry" version="3">
+        <sys_choice_set action="INSERT_OR_UPDATE">
+            <element>protocol_channel</element>
+            <name>x_snc_wog_integrat_integration_registry</name>
+            <sys_class_name>sys_choice_set</sys_class_name>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2025-05-23 09:55:49</sys_created_on>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_name>protocol_channel</sys_name>
+            <sys_package display_value="WOG Integrations" source="x_snc_wog_integrat">578c9db33ba9a2100b3f7c6eb5e45a45</sys_package>
+            <sys_policy/>
+            <sys_scope display_value="WOG Integrations">578c9db33ba9a2100b3f7c6eb5e45a45</sys_scope>
+            <sys_update_name>sys_choice_x_snc_wog_integrat_integration_registry_protocol_channel</sys_update_name>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2025-05-23 09:55:49</sys_updated_on>
+        </sys_choice_set>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>protocol_channel</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Email</label>
+            <language>en</language>
+            <name>x_snc_wog_integrat_integration_registry</name>
+            <sequence>100</sequence>
+            <synonyms/>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2025-05-23 09:56:14</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_mod_count>1</sys_mod_count>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2025-05-23 09:56:23</sys_updated_on>
+            <value>Email</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>protocol_channel</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>HTTPS</label>
+            <language>en</language>
+            <name>x_snc_wog_integrat_integration_registry</name>
+            <sequence>200</sequence>
+            <synonyms/>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2025-05-23 09:55:49</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_mod_count>1</sys_mod_count>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2025-05-23 09:56:26</sys_updated_on>
+            <value>HTTPS</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>protocol_channel</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>JDBC</label>
+            <language>en</language>
+            <name>x_snc_wog_integrat_integration_registry</name>
+            <sequence>300</sequence>
+            <synonyms/>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2025-05-23 09:56:05</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_mod_count>1</sys_mod_count>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2025-05-23 09:56:31</sys_updated_on>
+            <value>JDBC</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>protocol_channel</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>SFTP</label>
+            <language>en</language>
+            <name>x_snc_wog_integrat_integration_registry</name>
+            <sequence>400</sequence>
+            <synonyms/>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2025-05-23 09:55:56</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_mod_count>1</sys_mod_count>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2025-05-23 09:56:34</sys_updated_on>
+            <value>SFTP</value>
+        </sys_choice>
+    </sys_choice>
+</record_update>

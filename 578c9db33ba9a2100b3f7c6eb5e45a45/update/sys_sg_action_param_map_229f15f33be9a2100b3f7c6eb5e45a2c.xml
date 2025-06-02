@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_sg_action_param_map">
+    <sys_sg_action_param_map action="INSERT_OR_UPDATE">
+        <button display_value="Edit Button (Integration Registry)">ea9f15f33be9a2100b3f7c6eb5e45a24</button>
+        <item_parameter display_value="Integration Registry deployment_notes">669f15f33be9a2100b3f7c6eb5e45a22</item_parameter>
+        <sys_class_name>sys_sg_action_param_map</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-05-23 08:59:04</sys_created_on>
+        <sys_id>229f15f33be9a2100b3f7c6eb5e45a2c</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>669f15f33be9a2100b3f7c6eb5e45a22</sys_name>
+        <sys_package display_value="WOG Integrations" source="x_snc_wog_integrat">578c9db33ba9a2100b3f7c6eb5e45a45</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="WOG Integrations">578c9db33ba9a2100b3f7c6eb5e45a45</sys_scope>
+        <sys_update_name>sys_sg_action_param_map_229f15f33be9a2100b3f7c6eb5e45a2c</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-05-23 08:59:04</sys_updated_on>
+        <ui_parameter display_value="Deployment Notes">229f15f33be9a2100b3f7c6eb5e45a27</ui_parameter>
+    </sys_sg_action_param_map>
+</record_update>

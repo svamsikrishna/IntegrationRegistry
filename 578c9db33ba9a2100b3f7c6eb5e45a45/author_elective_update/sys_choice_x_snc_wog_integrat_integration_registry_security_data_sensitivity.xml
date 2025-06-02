@@ -1,0 +1,114 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update>
+    <sys_choice action="INSERT_OR_UPDATE" field="security_data_sensitivity" table="x_snc_wog_integrat_integration_registry" version="3">
+        <sys_choice_set action="INSERT_OR_UPDATE">
+            <element>security_data_sensitivity</element>
+            <name>x_snc_wog_integrat_integration_registry</name>
+            <sys_class_name>sys_choice_set</sys_class_name>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2025-05-23 10:00:24</sys_created_on>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_name>security_data_sensitivity</sys_name>
+            <sys_package display_value="WOG Integrations" source="x_snc_wog_integrat">578c9db33ba9a2100b3f7c6eb5e45a45</sys_package>
+            <sys_policy/>
+            <sys_scope display_value="WOG Integrations">578c9db33ba9a2100b3f7c6eb5e45a45</sys_scope>
+            <sys_update_name>sys_choice_x_snc_wog_integrat_integration_registry_security_data_sensitivity</sys_update_name>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2025-05-23 10:00:24</sys_updated_on>
+        </sys_choice_set>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>security_data_sensitivity</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Internal</label>
+            <language>en</language>
+            <name>x_snc_wog_integrat_integration_registry</name>
+            <sequence>100</sequence>
+            <synonyms/>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2025-05-23 10:01:03</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_mod_count>1</sys_mod_count>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2025-05-23 10:01:12</sys_updated_on>
+            <value>Internal</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>security_data_sensitivity</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>PCI</label>
+            <language>en</language>
+            <name>x_snc_wog_integrat_integration_registry</name>
+            <sequence>200</sequence>
+            <synonyms/>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2025-05-23 10:00:33</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_mod_count>1</sys_mod_count>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2025-05-23 10:01:15</sys_updated_on>
+            <value>PCI</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>security_data_sensitivity</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>PHI</label>
+            <language>en</language>
+            <name>x_snc_wog_integrat_integration_registry</name>
+            <sequence>300</sequence>
+            <synonyms/>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2025-05-23 10:00:43</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_mod_count>1</sys_mod_count>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2025-05-23 10:01:19</sys_updated_on>
+            <value>PHI</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>security_data_sensitivity</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>PII</label>
+            <language>en</language>
+            <name>x_snc_wog_integrat_integration_registry</name>
+            <sequence>400</sequence>
+            <synonyms/>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2025-05-23 10:00:24</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_mod_count>1</sys_mod_count>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2025-05-23 10:01:22</sys_updated_on>
+            <value>PII</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>security_data_sensitivity</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Public</label>
+            <language>en</language>
+            <name>x_snc_wog_integrat_integration_registry</name>
+            <sequence>500</sequence>
+            <synonyms/>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2025-05-23 10:00:52</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_mod_count>1</sys_mod_count>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2025-05-23 10:01:26</sys_updated_on>
+            <value>Public</value>
+        </sys_choice>
+    </sys_choice>
+</record_update>
